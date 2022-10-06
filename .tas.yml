@@ -9,6 +9,7 @@ postRun:
 preMerge: 
   pattern: 
     - "**/*.test.js"
+    - "**/__tests__/*test.js"
 preRun: 
   command:
     - npm i
